@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ई-तरकारी</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">सेटिङहरु</string>
+    <string name="action_update">अपदेत</string>
+    
+    <string-array name="menus">
+        <item >ड्यासबोर्ड</item>
+        <item >बजारहरु</item>
+        <item >सेटिङहरु</item>
+        <item >सुचना सम्पदन</item>
+        <item >सम्पर्क व्यवस्था</item>                      
+    </string-array>
+    
+    
+    
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="ok">ठीक</string>
+    <string name="date_updated">अपडेट मिति</string>
+    <string name="not_updated">अपडेट छैन</string>
+    <string name="data_sync_from_server">डाटा सिंक्रनाइजेशन को लागि इन्टरनेट कनेक्ट गर्नुहोस्</string>
+    <string name="data_not_updated">डाटा अपडेट छैन</string>
+    <string name="loading">लोड् भइ रहेको&#8230;</string>
+    <string name="no_update_found">नयाँ अपडेट फेला परेन!!!</string>
+    <string name="data_succes_from_server">डाटा सफलतापूर्वक सर्भर बाट लोड भएको छ ।</string>
+    <string name="no_data_found">कुनै डाटा भेटिएन!!! डाटा सर्भरबाट प्राप्त हुनुपर्छ ।</string>
+	<string name="no_internet_connection">इन्टरनेट कनेक्शन छैन ।</string>
+	<string name="language_changed_to_nepali">नेपाली भाषामा परिवर्तन भएको छ ।</string>
+    
+    <string name="minimum">न्यूनतम</string>
+    <string name="maximum">अधिकतम</string>
+    <string name="wholesale_price">थोक मूल्य</string>
+    <string name="retail_price">खुद्रा मूल्य</string>
+    
+    
+    
+    
+    <!-- User interface labels and strings -->
+
+    <!-- Address format -->
+    <string name="address_output_string">%1$s %2$s %3$s</string>
+
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+
+    
+
+    <!-- Labels -->
+    <string name="latlng">Lat/Long:</string>
+    <string name="address">Address:</string>
+
+    <!-- Messages -->
+    <string name="connected">Client connected</string>
+    <string name="connection_error_code_unknown">Unknown connection error code:  %1$d</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="disconnected">Client disconnected</string>
+    <string name="get_address">Get Address</string>
+    <string name="get_location">Get Location</string>
+    <string name="illegal_argument_exception">
+        Illegal arguments: Latitude %1$.8f Longitude %2$.8f
+    </string>
+    <string name="invalid_action">Invalid intent action %1$s</string>
+    <string name="invalid_integer_id">Invalid integer request ID: %1$s</string>
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_update_error">Location update failed</string>
+    <string name="location_update_error_detail">
+        Location update error. code %1$d message %2$s
+    </string>
+    <string name="location_update_missing_update">
+        Location update error. No incoming location.
+    </string>
+    <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="log_new_location">New location: %1$s</string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection: Cannot request location</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="periodic_update_stop">Stopping periodic updates</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="request_location_updates_in_progress">
+        Can\'t request location updates, previous request hasn\'t finished
+    </string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">
+        Received an unknown activity request code %1$d in onActivityResult.
+    </string>
+    
+</resources>

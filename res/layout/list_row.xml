@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector_flat"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+
+    <!-- Title Of Song -->
+
+
+    <!-- Retail Rate -->
+
+
+    <!-- Wholesale Rate -->
+
+
+    <!-- Rightend Arrow -->
+
+
+    <AbsoluteLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:layout_x="134dp"
+        android:layout_y="0dp"
+        android:background="@drawable/image_bg"
+        android:gravity="center"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_x="1dp"
+            android:layout_y="-6dp" />
+    </AbsoluteLayout>
+	
+    <TextView
+        android:id="@+id/wholesaletxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dip"
+        android:layout_x="25dp"
+        android:layout_y="10dp"
+        android:text="@string/wholesale_price"
+        android:textStyle="bold"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/txtWMinString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_x="33dp"
+        android:layout_y="25dp"
+        android:text="@string/minimum"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+
+    
+    <TextView
+        android:id="@+id/txtWMaxString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_x="33dp"
+        android:layout_y="39dp"
+        android:text="@string/maximum"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+    
+    <TextView
+        android:id="@+id/wmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_x="90dp"
+        android:layout_y="25dp"
+        android:textStyle="bold"
+        android:text="{WMIN}"
+        android:textColor="@color/min_price"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/wmax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_x="90dp"
+        android:layout_y="39dp"
+        android:text="{WMAX}"
+        android:textStyle="bold"
+        android:textColor="@color/max_price"
+        android:textSize="12sp" />
+    
+    <TextView
+        android:id="@+id/retailtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_x="200dp"
+        android:layout_y="10dp"
+        android:text="@string/retail_price"
+        android:textStyle="bold"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+
+    
+
+    
+
+    <TextView
+        android:id="@+id/txtRMaxString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_x="200dp"
+        android:layout_y="39dp"
+        android:text="@string/maximum"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtRMinString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_x="200dp"
+        android:layout_y="25dp"
+        android:text="@string/minimum"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+    
+    
+    <TextView
+        android:id="@+id/rmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_x="257dp"
+        android:layout_y="25dp"
+        android:text="{RMIN}"
+        android:textStyle="bold"
+        android:textColor="@color/min_price"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/rmax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_x="257dp"
+        android:layout_y="39dp"
+        android:text="{RMAX}"
+        android:textStyle="bold"
+        android:textColor="@color/max_price"
+        android:textSize="12sp" />
+    
+
+	<RelativeLayout 
+	    android:id="@+id/titleLayout"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="54dip"
+	        android:background="#DDDDDD"
+	        android:text="{title}"
+	        android:textColor="#040404"
+	        android:textSize="15sp"
+	        android:textStyle="bold"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:layout_alignWithParentIfMissing="true"
+	        android:typeface="sans" />
+	</RelativeLayout>
+</AbsoluteLayout>

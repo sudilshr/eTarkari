@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.etarkari.etarkari.MainActivity" >
+
+   <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="@string/action_search"          
+          android:showAsAction="ifRoom"
+          android:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/action_lang_en"
+        android:orderInCategory="100"
+        android:title="EN"
+        app:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_lang_ne"
+        android:orderInCategory="100"
+        android:title="ने"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/action_update"
+        
+        app:showAsAction="never"/>
+
+</menu>

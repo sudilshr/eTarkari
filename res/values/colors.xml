@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="bg_gradient_start">#b21331</color>
+    <color name="bg_gradient_end">#820d2a</color>
+    <color name="bg_button_login">#380813</color>
+    <color name="bg_green">#347734</color>
+    
+    <color name="bg_gr_gradient_start">#15B053</color>
+    <color name="bg_gr_gradient_end">#0E814A</color>
+
+    <color name="bg_gr2_gradient_start">#18B114</color>
+    <color name="bg_gr2_gradient_end">#108B0D</color>
+    
+    <color name="bg_gr3_gradient_start">#3C8A40</color>
+    <color name="bg_gr3_gradient_end">#286629</color>
+    
+    <color name="min_price">#006400</color>
+    <color name="max_price">#8B0000</color>
+</resources>

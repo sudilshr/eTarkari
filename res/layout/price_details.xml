@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/pdItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dp"
+        android:text="Item Name"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/pdThumbnail"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pdItemName"
+        android:paddingLeft="5dp"
+        android:src="@drawable/rihanna" />
+
+    <TextView
+        android:id="@+id/pdWPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pdThumbnail"
+        android:layout_marginTop="33dp"
+        android:paddingLeft="5dp"
+        android:text="Wholesale Price"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pdRPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:text="Retail Price"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pdWMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pdWPrice"
+        android:layout_toRightOf="@+id/pdThumbnail"
+        android:text="WMinimum"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pdRMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/pdWPrice"
+        android:layout_below="@+id/pdRPrice"
+        android:text="Minimum"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pdWMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/pdWPrice"
+        android:layout_below="@+id/pdWPrice"
+        android:layout_marginTop="30dp"
+        android:text="WMaximum"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pdRMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/pdWMin"
+        android:layout_below="@+id/pdRMin"
+        android:layout_marginTop="16dp"
+        android:text="Maximum"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pdWMinVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pdWMin"
+        android:layout_alignBottom="@+id/pdWMin"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/pdWMax"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pdWMaxVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pdWMax"
+        android:layout_alignBottom="@+id/pdWMax"
+        android:layout_alignRight="@+id/pdWMinVal"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pdRMinVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pdRMin"
+        android:layout_alignLeft="@+id/pdWMaxVal"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pdRMaxVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pdRMax"
+        android:layout_alignBottom="@+id/pdRMax"
+        android:layout_alignRight="@+id/pdRMinVal"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
