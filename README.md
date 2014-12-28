@@ -14,7 +14,7 @@ Maitighar, Kathmandu, Nepal<br>
 http://www.sxc.edu.np
 
 and submitted by<br>
-<a href="https://github.com/subodhu">Subodh Upreti</a><br>
-<a href="https://github.com/sudilshr">Sudil Shrestha</a><br>
+Subodh Upreti (<a href="http://github.com/subodhu">subodhu</a>)<br>
+Sudil Shrestha(<a href="http://github.com/sudilshr">sudilshr</a>)<br>
 Sujan Byanjankar<br>
 Diwash Adhikari<br>
